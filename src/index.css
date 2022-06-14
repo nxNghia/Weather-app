@@ -11,8 +11,10 @@ body,
 
 .night {
     background-color: #1F3453;
+    color: #FFFFFF;
 }
 
 .day {
     background-color: #81BCF2;
+
 }

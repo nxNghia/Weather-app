@@ -1,0 +1,51 @@
+.dashbroad {
+    width: 100%;
+    padding-top: 80px
+}
+
+.temp-description {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 70px 200px;
+    box-sizing: border-box;
+}
+
+.main-info {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.temperature {
+    font-size: 100px;
+}
+
+.main-weather {
+    font-size: 25px;
+    background-color: #49219D;
+    padding: 15px;
+    border-radius: 60px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.feel-like {
+    font-size: large;
+}
+
+.weather-visualize {
+    height: 200px;
+}
+
+.extra-info {
+    padding: 0px 100px;
+    display: flex;
+    font-size: 50px;
+    justify-content: space-between;
+}
+
+.extra__info__icon {
+    width: 50px;
+    margin-right: 10px;
+}
