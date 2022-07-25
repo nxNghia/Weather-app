@@ -49,3 +49,8 @@
     width: 50px;
     margin-right: 10px;
 }
+
+.weather-info {
+    display: flex;
+    align-items: center;
+}

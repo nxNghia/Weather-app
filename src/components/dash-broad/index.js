@@ -36,9 +36,9 @@ const DashBroad = ({weather}) => {
                 </div>
             </div>
             <div className='extra-info'>
-                <div><img src={Humidity} alt='extra' className='extra__info__icon' />{weather.humidity}%</div>
-                <div><img src={Wind} alt='extra' className='extra__info__icon' />{weather.wind} km/h</div>
-                <div><img src={Pressure} alt='extra' className='extra__info__icon' />{weather.pressure} Pa</div>
+                <div className='weather-info'><img src={Humidity} alt='extra' className='extra__info__icon' />{weather.humidity}%</div>
+                <div className='weather-info'><img src={Wind} alt='extra' className='extra__info__icon' />{weather.wind} km/h</div>
+                <div className='weather-info'><img src={Pressure} alt='extra' className='extra__info__icon' />{weather.pressure} Pa</div>
             </div>
         </div>
     );
